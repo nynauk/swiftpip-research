@@ -1,0 +1,296 @@
+
+[1/4] Silver Bullet (proper rules)...
+  → SB · M15 · NYAM · RR=2
+  [cache] loading data_cache\EURUSD_M15.pkl
+  [cache] loading data_cache\GBPUSD_M15.pkl
+  [cache] loading data_cache\USDJPY_M15.pkl
+  [cache] loading data_cache\USDCHF_M15.pkl
+  [cache] loading data_cache\USDCAD_M15.pkl
+  [cache] loading data_cache\AUDUSD_M15.pkl
+  [cache] loading data_cache\NZDUSD_M15.pkl
+  → SB · M15 · NYAM · RR=3
+  [cache] loading data_cache\EURUSD_M15.pkl
+  [cache] loading data_cache\GBPUSD_M15.pkl
+  [cache] loading data_cache\USDJPY_M15.pkl
+  [cache] loading data_cache\USDCHF_M15.pkl
+  [cache] loading data_cache\USDCAD_M15.pkl
+  [cache] loading data_cache\AUDUSD_M15.pkl
+  [cache] loading data_cache\NZDUSD_M15.pkl
+  → SB · M15 · All-3 · RR=2
+  [cache] loading data_cache\EURUSD_M15.pkl
+  [cache] loading data_cache\GBPUSD_M15.pkl
+  [cache] loading data_cache\USDJPY_M15.pkl
+  [cache] loading data_cache\USDCHF_M15.pkl
+  [cache] loading data_cache\USDCAD_M15.pkl
+  [cache] loading data_cache\AUDUSD_M15.pkl
+  [cache] loading data_cache\NZDUSD_M15.pkl
+  → SB · M5  · NYAM · RR=2
+  [cache] loading data_cache\EURUSD_M5.pkl
+  [cache] loading data_cache\GBPUSD_M5.pkl
+  [cache] loading data_cache\USDJPY_M5.pkl
+  [cache] loading data_cache\USDCHF_M5.pkl
+  [cache] loading data_cache\USDCAD_M5.pkl
+  [cache] loading data_cache\AUDUSD_M5.pkl
+  [cache] loading data_cache\NZDUSD_M5.pkl
+  → SB · M5  · All-3 · RR=2
+  [cache] loading data_cache\EURUSD_M5.pkl
+  [cache] loading data_cache\GBPUSD_M5.pkl
+  [cache] loading data_cache\USDJPY_M5.pkl
+  [cache] loading data_cache\USDCHF_M5.pkl
+  [cache] loading data_cache\USDCAD_M5.pkl
+  [cache] loading data_cache\AUDUSD_M5.pkl
+  [cache] loading data_cache\NZDUSD_M5.pkl
+  → SB · M15 · NYAM · RR=2 · no-news
+  [cache] loading data_cache\EURUSD_M15.pkl
+  [cache] loading data_cache\GBPUSD_M15.pkl
+  [cache] loading data_cache\USDJPY_M15.pkl
+  [cache] loading data_cache\USDCHF_M15.pkl
+  [cache] loading data_cache\USDCAD_M15.pkl
+  [cache] loading data_cache\AUDUSD_M15.pkl
+  [cache] loading data_cache\NZDUSD_M15.pkl
+
+[2/4] CISD strategy (sweep + 5M IFVG + CISD)...
+  → CISD · SL=sweep · RR=2
+  [cache] loading data_cache\EURUSD_M5.pkl
+  [cache] loading data_cache\GBPUSD_M5.pkl
+  [cache] loading data_cache\USDJPY_M5.pkl
+  [cache] loading data_cache\USDCHF_M5.pkl
+  [cache] loading data_cache\USDCAD_M5.pkl
+  [cache] loading data_cache\AUDUSD_M5.pkl
+  [cache] loading data_cache\NZDUSD_M5.pkl
+  → CISD · SL=ifvg  · RR=2
+  [cache] loading data_cache\EURUSD_M5.pkl
+  [cache] loading data_cache\GBPUSD_M5.pkl
+  [cache] loading data_cache\USDJPY_M5.pkl
+  [cache] loading data_cache\USDCHF_M5.pkl
+  [cache] loading data_cache\USDCAD_M5.pkl
+  [cache] loading data_cache\AUDUSD_M5.pkl
+  [cache] loading data_cache\NZDUSD_M5.pkl
+  → CISD · SL=sweep · RR=3
+  [cache] loading data_cache\EURUSD_M5.pkl
+  [cache] loading data_cache\GBPUSD_M5.pkl
+  [cache] loading data_cache\USDJPY_M5.pkl
+  [cache] loading data_cache\USDCHF_M5.pkl
+  [cache] loading data_cache\USDCAD_M5.pkl
+  [cache] loading data_cache\AUDUSD_M5.pkl
+  [cache] loading data_cache\NZDUSD_M5.pkl
+
+[3/4] EMA crossover + ICT DOL...
+  → EMA9/21 · DOL · 2R min
+  [cache] loading data_cache\EURUSD_M15.pkl
+  [cache] loading data_cache\GBPUSD_M15.pkl
+  [cache] loading data_cache\USDJPY_M15.pkl
+  [cache] loading data_cache\USDCHF_M15.pkl
+  [cache] loading data_cache\USDCAD_M15.pkl
+  [cache] loading data_cache\AUDUSD_M15.pkl
+  [cache] loading data_cache\NZDUSD_M15.pkl
+  → EMA9/21 · DOL · 3R min
+  [cache] loading data_cache\EURUSD_M15.pkl
+  [cache] loading data_cache\GBPUSD_M15.pkl
+  [cache] loading data_cache\USDJPY_M15.pkl
+  [cache] loading data_cache\USDCHF_M15.pkl
+  [cache] loading data_cache\USDCAD_M15.pkl
+  [cache] loading data_cache\AUDUSD_M15.pkl
+  [cache] loading data_cache\NZDUSD_M15.pkl
+  → EMA9/21 · Fixed 2R
+  [cache] loading data_cache\EURUSD_M15.pkl
+  [cache] loading data_cache\GBPUSD_M15.pkl
+  [cache] loading data_cache\USDJPY_M15.pkl
+  [cache] loading data_cache\USDCHF_M15.pkl
+  [cache] loading data_cache\USDCAD_M15.pkl
+  [cache] loading data_cache\AUDUSD_M15.pkl
+  [cache] loading data_cache\NZDUSD_M15.pkl
+  → EMA12/26 · DOL · 2R min
+  [cache] loading data_cache\EURUSD_M15.pkl
+  [cache] loading data_cache\GBPUSD_M15.pkl
+  [cache] loading data_cache\USDJPY_M15.pkl
+  [cache] loading data_cache\USDCHF_M15.pkl
+  [cache] loading data_cache\USDCAD_M15.pkl
+  [cache] loading data_cache\AUDUSD_M15.pkl
+  [cache] loading data_cache\NZDUSD_M15.pkl
+  → EMA20/50 · DOL · 2R min
+  [cache] loading data_cache\EURUSD_M15.pkl
+  [cache] loading data_cache\GBPUSD_M15.pkl
+  [cache] loading data_cache\USDJPY_M15.pkl
+  [cache] loading data_cache\USDCHF_M15.pkl
+  [cache] loading data_cache\USDCAD_M15.pkl
+  [cache] loading data_cache\AUDUSD_M15.pkl
+  [cache] loading data_cache\NZDUSD_M15.pkl
+  → EMA50/200 · DOL · 2R min
+  [cache] loading data_cache\EURUSD_M15.pkl
+  [cache] loading data_cache\GBPUSD_M15.pkl
+  [cache] loading data_cache\USDJPY_M15.pkl
+  [cache] loading data_cache\USDCHF_M15.pkl
+  [cache] loading data_cache\USDCAD_M15.pkl
+  [cache] loading data_cache\AUDUSD_M15.pkl
+  [cache] loading data_cache\NZDUSD_M15.pkl
+  → EMA9/21 · DOL · no-news
+  [cache] loading data_cache\EURUSD_M15.pkl
+  [cache] loading data_cache\GBPUSD_M15.pkl
+  [cache] loading data_cache\USDJPY_M15.pkl
+  [cache] loading data_cache\USDCHF_M15.pkl
+  [cache] loading data_cache\USDCAD_M15.pkl
+  [cache] loading data_cache\AUDUSD_M15.pkl
+  [cache] loading data_cache\NZDUSD_M15.pkl
+
+[4/4] Sweep + IFVG (legacy family)...
+  → H4-swing · 12-18 · IFVG · RR=2
+  [cache] loading data_cache\EURUSD_H4.pkl
+  [cache] loading data_cache\EURUSD_M15.pkl
+  [cache] loading data_cache\GBPUSD_H4.pkl
+  [cache] loading data_cache\GBPUSD_M15.pkl
+  [cache] loading data_cache\USDJPY_H4.pkl
+  [cache] loading data_cache\USDJPY_M15.pkl
+  [cache] loading data_cache\USDCHF_H4.pkl
+  [cache] loading data_cache\USDCHF_M15.pkl
+  [cache] loading data_cache\USDCAD_H4.pkl
+  [cache] loading data_cache\USDCAD_M15.pkl
+  [cache] loading data_cache\AUDUSD_H4.pkl
+  [cache] loading data_cache\AUDUSD_M15.pkl
+  [cache] loading data_cache\NZDUSD_H4.pkl
+  [cache] loading data_cache\NZDUSD_M15.pkl
+  → H4-swing · 24h · IFVG · RR=2
+  [cache] loading data_cache\EURUSD_H4.pkl
+  [cache] loading data_cache\EURUSD_M15.pkl
+  [cache] loading data_cache\GBPUSD_H4.pkl
+  [cache] loading data_cache\GBPUSD_M15.pkl
+  [cache] loading data_cache\USDJPY_H4.pkl
+  [cache] loading data_cache\USDJPY_M15.pkl
+  [cache] loading data_cache\USDCHF_H4.pkl
+  [cache] loading data_cache\USDCHF_M15.pkl
+  [cache] loading data_cache\USDCAD_H4.pkl
+  [cache] loading data_cache\USDCAD_M15.pkl
+  [cache] loading data_cache\AUDUSD_H4.pkl
+  [cache] loading data_cache\AUDUSD_M15.pkl
+  [cache] loading data_cache\NZDUSD_H4.pkl
+  [cache] loading data_cache\NZDUSD_M15.pkl
+  → H4-swing · 12-16 · sweep_ext · RR=1
+  [cache] loading data_cache\EURUSD_H4.pkl
+  [cache] loading data_cache\EURUSD_M15.pkl
+  [cache] loading data_cache\GBPUSD_H4.pkl
+  [cache] loading data_cache\GBPUSD_M15.pkl
+  [cache] loading data_cache\USDJPY_H4.pkl
+  [cache] loading data_cache\USDJPY_M15.pkl
+  [cache] loading data_cache\USDCHF_H4.pkl
+  [cache] loading data_cache\USDCHF_M15.pkl
+  [cache] loading data_cache\USDCAD_H4.pkl
+  [cache] loading data_cache\USDCAD_M15.pkl
+  [cache] loading data_cache\AUDUSD_H4.pkl
+  [cache] loading data_cache\AUDUSD_M15.pkl
+  [cache] loading data_cache\NZDUSD_H4.pkl
+  [cache] loading data_cache\NZDUSD_M15.pkl
+  → PDH/PDL · 24h · IFVG · RR=2
+  [cache] loading data_cache\EURUSD_H4.pkl
+  [cache] loading data_cache\EURUSD_M15.pkl
+  [cache] loading data_cache\GBPUSD_H4.pkl
+  [cache] loading data_cache\GBPUSD_M15.pkl
+  [cache] loading data_cache\USDJPY_H4.pkl
+  [cache] loading data_cache\USDJPY_M15.pkl
+  [cache] loading data_cache\USDCHF_H4.pkl
+  [cache] loading data_cache\USDCHF_M15.pkl
+  [cache] loading data_cache\USDCAD_H4.pkl
+  [cache] loading data_cache\USDCAD_M15.pkl
+  [cache] loading data_cache\AUDUSD_H4.pkl
+  [cache] loading data_cache\AUDUSD_M15.pkl
+  [cache] loading data_cache\NZDUSD_H4.pkl
+  [cache] loading data_cache\NZDUSD_M15.pkl
+  → Asian rng · 7-23 · IFVG · RR=2
+  [cache] loading data_cache\EURUSD_H4.pkl
+  [cache] loading data_cache\EURUSD_M15.pkl
+  [cache] loading data_cache\GBPUSD_H4.pkl
+  [cache] loading data_cache\GBPUSD_M15.pkl
+  [cache] loading data_cache\USDJPY_H4.pkl
+  [cache] loading data_cache\USDJPY_M15.pkl
+  [cache] loading data_cache\USDCHF_H4.pkl
+  [cache] loading data_cache\USDCHF_M15.pkl
+  [cache] loading data_cache\USDCAD_H4.pkl
+  [cache] loading data_cache\USDCAD_M15.pkl
+  [cache] loading data_cache\AUDUSD_H4.pkl
+  [cache] loading data_cache\AUDUSD_M15.pkl
+  [cache] loading data_cache\NZDUSD_H4.pkl
+  [cache] loading data_cache\NZDUSD_M15.pkl
+  → London rng · 13-23 · IFVG · RR=2
+  [cache] loading data_cache\EURUSD_H4.pkl
+  [cache] loading data_cache\EURUSD_M15.pkl
+  [cache] loading data_cache\GBPUSD_H4.pkl
+  [cache] loading data_cache\GBPUSD_M15.pkl
+  [cache] loading data_cache\USDJPY_H4.pkl
+  [cache] loading data_cache\USDJPY_M15.pkl
+  [cache] loading data_cache\USDCHF_H4.pkl
+  [cache] loading data_cache\USDCHF_M15.pkl
+  [cache] loading data_cache\USDCAD_H4.pkl
+  [cache] loading data_cache\USDCAD_M15.pkl
+  [cache] loading data_cache\AUDUSD_H4.pkl
+  [cache] loading data_cache\AUDUSD_M15.pkl
+  [cache] loading data_cache\NZDUSD_H4.pkl
+  [cache] loading data_cache\NZDUSD_M15.pkl
+
+========================================================================================================================
+MASTER LEADERBOARD — sorted by TOTAL R
+========================================================================================================================
+Strategy                                           N      WR      Exp          R     PF       DD   Streak        $bal
+------------------------------------------------------------------------------------------------------------------------
+EMA9/21 · DOL · no-news                          619   41.6%   +0.76R    +470.7R   2.30   -10.4%        9  $  933,455
+EMA9/21 · DOL · 2R min                           542   41.5%   +0.76R    +409.6R   2.29    -8.6%        9  $  517,334
+EMA12/26 · DOL · 2R min                          457   41.4%   +0.72R    +329.6R   2.23   -10.5%       11  $  239,494
+EMA9/21 · DOL · 3R min                           256   35.5%   +0.95R    +242.1R   2.47   -11.4%       12  $  101,453
+H4-swing · 24h · IFVG · RR=2                     832   41.0%   +0.23R    +192.0R   1.39   -16.8%       13  $   62,216
+EMA20/50 · DOL · 2R min                          223   41.3%   +0.72R    +159.6R   2.22    -8.7%        8  $   46,556
+Asian rng · 7-23 · IFVG · RR=2                  2817   34.9%   +0.05R    +132.0R   1.07   -50.3%       22  $   28,122
+PDH/PDL · 24h · IFVG · RR=2                     1899   35.5%   +0.07R    +125.0R   1.10   -36.7%       16  $   28,732
+SB · M15 · NYAM · RR=3                           289   30.7%   +0.23R     +65.0R   1.33   -13.2%       12  $   18,242
+London rng · 13-23 · IFVG · RR=2                2490   34.0%   +0.02R     +52.0R   1.03   -71.7%       24  $   13,106
+SB · M15 · NYAM · RR=2                           289   39.0%   +0.17R     +49.0R   1.28   -10.9%        8  $   15,826
+SB · M15 · All-3 · RR=2                          639   35.8%   +0.07R     +47.0R   1.11   -34.3%       20  $   14,984
+SB · M15 · NYAM · RR=2 · no-news                 369   37.1%   +0.11R     +41.0R   1.18   -15.1%       10  $   14,500
+H4-swing · 12-18 · IFVG · RR=2                   307   36.3%   +0.09R     +27.0R   1.14   -28.9%       16  $   12,691
+EMA9/21 · Fixed 2R                               541   34.3%   +0.03R     +15.0R   1.04   -26.2%       12  $   11,010
+H4-swing · 12-16 · sweep_ext · RR=1              175   54.1%   +0.08R     +14.0R   1.18    -9.7%        7  $   11,404
+EMA50/200 · DOL · 2R min                          72   26.4%   +0.18R     +12.6R   1.24   -17.2%       11  $   11,173
+SB · M5  · NYAM · RR=2                           156   35.3%   +0.06R      +9.0R   1.09   -21.0%       10  $   10,769
+SB · M5  · All-3 · RR=2                          305   32.5%   -0.03R      -8.0R   0.96   -28.4%       14  $    8,959
+CISD · SL=sweep · RR=2                            74   29.4%   -0.12R      -8.0R   0.83   -10.7%        8  $    9,173
+CISD · SL=sweep · RR=3                            51   20.5%   -0.18R      -8.0R   0.77   -10.6%        9  $    9,178
+CISD · SL=ifvg  · RR=2                           149   29.3%   -0.12R     -18.0R   0.83   -24.4%       13  $    8,239
+
+========================================================================================================================
+SORTED BY WIN RATE
+========================================================================================================================
+H4-swing · 12-16 · sweep_ext · RR=1              175   54.1%  R=  +14.0  PF=1.18
+EMA9/21 · DOL · no-news                          619   41.6%  R= +470.7  PF=2.30
+EMA9/21 · DOL · 2R min                           542   41.5%  R= +409.6  PF=2.29
+EMA12/26 · DOL · 2R min                          457   41.4%  R= +329.6  PF=2.23
+EMA20/50 · DOL · 2R min                          223   41.3%  R= +159.6  PF=2.22
+H4-swing · 24h · IFVG · RR=2                     832   41.0%  R= +192.0  PF=1.39
+SB · M15 · NYAM · RR=2                           289   39.0%  R=  +49.0  PF=1.28
+SB · M15 · NYAM · RR=2 · no-news                 369   37.1%  R=  +41.0  PF=1.18
+
+========================================================================================================================
+SORTED BY PROFIT FACTOR
+========================================================================================================================
+EMA9/21 · DOL · 3R min                         PF=2.47  R= +242.1  WR=35.5%  N=256
+EMA9/21 · DOL · no-news                        PF=2.30  R= +470.7  WR=41.6%  N=619
+EMA9/21 · DOL · 2R min                         PF=2.29  R= +409.6  WR=41.5%  N=542
+EMA12/26 · DOL · 2R min                        PF=2.23  R= +329.6  WR=41.4%  N=457
+EMA20/50 · DOL · 2R min                        PF=2.22  R= +159.6  WR=41.3%  N=223
+H4-swing · 24h · IFVG · RR=2                   PF=1.39  R= +192.0  WR=41.0%  N=832
+SB · M15 · NYAM · RR=3                         PF=1.33  R=  +65.0  WR=30.7%  N=289
+SB · M15 · NYAM · RR=2                         PF=1.28  R=  +49.0  WR=39.0%  N=289
+
+========================================================================================================================
+BEST RISK-ADJUSTED (Total R / |Max DD|)
+========================================================================================================================
+EMA9/21 · DOL · 2R min                         R/|DD|= 47.36  R= +409.6  DD=-8.6%  Streak=9
+EMA9/21 · DOL · no-news                        R/|DD|= 45.37  R= +470.7  DD=-10.4%  Streak=9
+EMA12/26 · DOL · 2R min                        R/|DD|= 31.49  R= +329.6  DD=-10.5%  Streak=11
+EMA9/21 · DOL · 3R min                         R/|DD|= 21.31  R= +242.1  DD=-11.4%  Streak=12
+EMA20/50 · DOL · 2R min                        R/|DD|= 18.40  R= +159.6  DD=-8.7%  Streak=8
+H4-swing · 24h · IFVG · RR=2                   R/|DD|= 11.45  R= +192.0  DD=-16.8%  Streak=13
+SB · M15 · NYAM · RR=3                         R/|DD|=  4.91  R=  +65.0  DD=-13.2%  Streak=12
+SB · M15 · NYAM · RR=2                         R/|DD|=  4.49  R=  +49.0  DD=-10.9%  Streak=8
+
+Saved top-1: strategies\master\top1_EMA9-21___DOL___no-news.csv
+
+Saved top-2: strategies\master\top2_EMA9-21___DOL___2R_min.csv
+
+Saved top-3: strategies\master\top3_EMA12-26___DOL___2R_min.csv

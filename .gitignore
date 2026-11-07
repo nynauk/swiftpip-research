@@ -1,0 +1,20 @@
+# Market data and caches are not redistributed (see README: Run it)
+data/
+data_cache/
+ext_data/
+strategies/
+archive/
+
+# Live bot runtime files
+*.log
+!docs/realistic_run.log
+state*.json
+live/state*.json
+asia_bot/trades.csv
+asia_bot/backtest/
+
+# Python and IDE
+__pycache__/
+*.pyc
+.venv/
+.idea/

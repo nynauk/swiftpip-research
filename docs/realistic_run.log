@@ -1,0 +1,64 @@
+ENGINE: causal re-run · 40 instruments × M3/M5/M15 · 2000-2026
+  EURUSD done
+  GBPUSD done
+  USDJPY done
+  USDCHF done
+  USDCAD done
+  AUDUSD done
+  NZDUSD done
+  EURGBP done
+  EURJPY done
+  GBPJPY done
+  AUDJPY done
+  CADJPY done
+  CHFJPY done
+  NZDJPY done
+  EURAUD done
+  EURCAD done
+  EURCHF done
+  EURNZD done
+  GBPAUD done
+  GBPCAD done
+  GBPCHF done
+  GBPNZD done
+  AUDCAD done
+  AUDCHF done
+  AUDNZD done
+  NZDCAD done
+  NZDCHF done
+  XAUUSD done
+  XAGUSD done
+  US500.cash done
+  US100.cash done
+  GER40.cash done
+  UK100.cash done
+  EU50.cash done
+  FRA40.cash done
+  JP225.cash done
+  AUS200.cash done
+  HK50.cash done
+  USOIL.cash done
+  UKOIL.cash done
+
+==================================================================================================================
+REALISTIC BACKTEST · degradation waterfall · 2000-2026 · $1k/$100k
+==================================================================================================================
+  stream                          N   /day      WR    PF      totR      DD   LS         End$
+------------------------------------------------------------------------------------------------------------------
+  1 baseline curated21         9440   1.39   69.5%  2.95   +3101.1   -5.0%    8 $  3,201,092
+  2 +causal swings            15726   2.31   45.8%  0.63   -1673.5 -1693.5%   16 $ -1,573,524
+  3 +execution+tails          14210   2.09   40.1%  0.51   -2237.0 -2238.4%   26 $ -2,137,041
+  4 same, full40 (no glow)    23847   3.50   37.3%  0.44   -4484.8 -4485.0%   20 $ -4,384,781
+
+  ── walk-forward curation: picked on 2000-2013 (PF>=2, N>=30) → 0 instruments → tested 2014-2026, degraded ──
+Traceback (most recent call last):
+  File "C:\Users\Ayaan\PycharmProjects\ftmotest\causal_realistic.py", line 275, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Ayaan\PycharmProjects\ftmotest\causal_realistic.py", line 231, in main
+    row("WF basket 2014-26", oos, d2)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ayaan\PycharmProjects\ftmotest\causal_realistic.py", line 146, in row
+    print(f"  {tag:26} {st['n']:>6} {st['n']/days:>6.2f} {st['wr']:>6.1f}% {st['pf']:>5.2f} "
+                        ~~^^^^^
+TypeError: 'NoneType' object is not subscriptable
